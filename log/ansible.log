@@ -1,0 +1,35 @@
+[2017-11-16 19:44:40,217][MainThread:5540][task_id:conf.mylogging][mylogging.py:75][INFO]
+[It works!]
+[2017-11-16 19:44:41,352][MainThread:5540][task_id:core.cmd][cmd.py:42][DEBUG]
+[from host:172.18.3.188]
+[2017-11-16 19:44:41,353][MainThread:5540][task_id:core.cmd][cmd.py:43][DEBUG]
+[Filesystem               Size  Used Avail Use% Mounted on
+none                     250G   77G  174G  31% /
+tmpfs                    913M     0  913M   0% /dev
+tmpfs                    913M     0  913M   0% /sys/fs/cgroup
+/dev/mapper/centos-root  250G   77G  174G  31% /etc/hosts
+shm                       64M     0   64M   0% /dev/shm
+]
+[2017-11-16 19:44:41,356][MainThread:5540][task_id:core.cmd][cmd.py:42][DEBUG]
+[from host:172.18.3.180]
+[2017-11-16 19:44:41,358][MainThread:5540][task_id:core.cmd][cmd.py:43][DEBUG]
+[Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2       458G  110G  348G  24% /
+devtmpfs        1.8G     0  1.8G   0% /dev
+tmpfs           1.8G     0  1.8G   0% /dev/shm
+tmpfs           1.8G  168M  1.6G  10% /run
+tmpfs           1.8G     0  1.8G   0% /sys/fs/cgroup
+tmpfs           359M     0  359M   0% /run/user/0
+]
+[2017-11-16 19:44:52,998][MainThread:6428][task_id:conf.mylogging][mylogging.py:75][INFO]
+[It works!]
+[2017-11-16 19:45:49,313][MainThread:1532][task_id:conf.mylogging][mylogging.py:75][INFO]
+[It works!]
+[2017-11-16 19:46:09,840][MainThread:1532][task_id:core.scp][scp.py:47][DEBUG]
+[from host:172.18.3.188]
+[2017-11-16 19:46:09,840][MainThread:1532][task_id:core.scp][scp.py:48][DEBUG]
+[transinfer succesfully!]
+[2017-11-16 19:46:09,842][MainThread:1532][task_id:core.scp][scp.py:47][DEBUG]
+[from host:172.18.3.180]
+[2017-11-16 19:46:09,844][MainThread:1532][task_id:core.scp][scp.py:48][DEBUG]
+[transinfer succesfully!]

@@ -1,0 +1,26 @@
+
+[h1]
+ip = 172.18.3.180
+port = 22
+username = root
+password = xinwei
+
+[h2]
+ip = 172.18.3.188
+port = 22
+username = root
+password = xinwei
+
+
+
+
+[g1]
+
+host1 = h1
+host2 = h2
+
+
+[g2]
+
+host1 = h1
+host2 = h2
