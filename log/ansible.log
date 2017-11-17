@@ -204,3 +204,50 @@ veth1pl11205: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
 [It works!]
 [2017-11-17 17:36:12,674][MainThread:320][task_id:conf.mylogging][mylogging.py:75][INFO]
 [It works!]
+[2017-11-17 17:53:35,809][MainThread:3632][task_id:conf.mylogging][mylogging.py:75][INFO]
+[It works!]
+[2017-11-17 17:53:49,642][MainThread:4924][task_id:conf.mylogging][mylogging.py:75][INFO]
+[It works!]
+[2017-11-17 17:53:52,428][MainThread:4924][task_id:core.cmd][cmd.py:51][DEBUG]
+[from host:172.18.3.180]
+[2017-11-17 17:53:52,429][MainThread:4924][task_id:core.cmd][cmd.py:52][DEBUG]
+[Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2       458G  112G  347G  25% /
+devtmpfs        1.8G     0  1.8G   0% /dev
+tmpfs           1.8G     0  1.8G   0% /dev/shm
+tmpfs           1.8G  168M  1.6G  10% /run
+tmpfs           1.8G     0  1.8G   0% /sys/fs/cgroup
+tmpfs           359M     0  359M   0% /run/user/0
+]
+[2017-11-17 17:53:52,430][MainThread:4924][task_id:core.cmd][cmd.py:51][DEBUG]
+[from host:172.18.3.188]
+[2017-11-17 17:53:52,431][MainThread:4924][task_id:core.cmd][cmd.py:52][DEBUG]
+[Filesystem               Size  Used Avail Use% Mounted on
+none                     250G   77G  173G  31% /
+tmpfs                    913M     0  913M   0% /dev
+tmpfs                    913M     0  913M   0% /sys/fs/cgroup
+/dev/mapper/centos-root  250G   77G  173G  31% /etc/hosts
+shm                       64M     0   64M   0% /dev/shm
+]
+[2017-11-17 17:54:17,153][MainThread:5396][task_id:conf.mylogging][mylogging.py:75][INFO]
+[It works!]
+[2017-11-17 17:54:18,226][MainThread:5396][task_id:core.cmd][cmd.py:51][DEBUG]
+[from host:172.18.3.180]
+[2017-11-17 17:54:18,226][MainThread:5396][task_id:core.cmd][cmd.py:52][DEBUG]
+[CentOS Linux release 7.2.1511 (Core) 
+]
+[2017-11-17 17:54:18,227][MainThread:5396][task_id:core.cmd][cmd.py:51][DEBUG]
+[from host:172.18.3.188]
+[2017-11-17 17:54:18,228][MainThread:5396][task_id:core.cmd][cmd.py:52][DEBUG]
+[CentOS Linux release 7.4.1708 (Core) 
+]
+[2017-11-17 17:55:03,199][MainThread:6092][task_id:conf.mylogging][mylogging.py:75][INFO]
+[It works!]
+[2017-11-17 17:55:04,267][MainThread:6092][task_id:core.scp][scp.py:53][DEBUG]
+[from host:172.18.3.180]
+[2017-11-17 17:55:04,269][MainThread:6092][task_id:core.scp][scp.py:54][DEBUG]
+[transinfer succesfully!]
+[2017-11-17 17:55:04,270][MainThread:6092][task_id:core.scp][scp.py:53][DEBUG]
+[from host:172.18.3.188]
+[2017-11-17 17:55:04,272][MainThread:6092][task_id:core.scp][scp.py:54][DEBUG]
+[transinfer succesfully!]
