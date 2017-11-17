@@ -31,8 +31,13 @@ def fris(line,cmd):
         return res
 
 def core():
-    ipinfo = magic()
-    cmdinfo = get_cmd()
+
+    try:
+        ipinfo = magic()
+        cmdinfo = get_cmd()
+    except AttributeError:
+        exit('请输入正确的参数，使用-h 或者 --help查看')
+
     res = []
     with ProcessPoolExecutor(max_workers=4) as executor:
         for line in ipinfo:

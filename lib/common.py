@@ -44,7 +44,7 @@ class Config_hander:
 class M_optparse:
 
     def __init__(self):
-        self.parser = OptionParser()
+        self.parser = OptionParser(usage="bitch_run [-i] h1,h2 [-g] g1,g2 [-c] 'your cmd'  \n bitch_scp [-i] h1,h2 [-g] g1,g2 [-p] local_path,remote_path", version="1.0")
         self.parser.add_option("-i", "--ip", action="store", dest="host" ,help="input your host ,like h1,h2,h3....")
         self.parser.add_option("-g", "--group", action="store", dest="group",help="input your hostgroup ,like g1,g2,g3.....")
 

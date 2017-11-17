@@ -34,8 +34,12 @@ def fris(line, local_path,remote_path):
 
 
 def core():
-    ipinfo = magic()
-    putinfo = get_putinfo()
+    try:
+        ipinfo = magic()
+        putinfo = get_putinfo()
+    except AttributeError:
+        exit('请输入正确的参数，使用-h 或者 --help查看')
+
     # print(putinfo)
     res = []
     with ProcessPoolExecutor(max_workers=4) as executor:
